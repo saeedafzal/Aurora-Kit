@@ -1,2 +1,2 @@
-# Aurora-Kit
+# Aurora Kit
 Another CSS framework.
