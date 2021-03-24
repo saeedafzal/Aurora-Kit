@@ -1,6 +1,6 @@
 import "../less/aurora.less";
-import Modal from "./components/modal";
+import Modal from "./modal";
 
 export {
     Modal
-};
+}

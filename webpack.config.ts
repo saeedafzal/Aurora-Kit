@@ -14,7 +14,7 @@ const postcssLoader = {
 
 const config: Configuration = {
     mode: "none",
-    entry: "./ts/aurora.ts",
+    entry: "./ts/index.ts",
 
     output: {
         path: path.resolve(__dirname, "./dist"),
