@@ -1,4 +1,4 @@
-export default class Modal {
+export class Modal {
 
     private readonly _element!: HTMLElement;
 
