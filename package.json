@@ -1,8 +1,8 @@
 {
   "name": "aurora-kit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Another CSS framework.",
-  "main": "dist/index.js",
+  "main": "dist/aurora.min.js",
   "typings": "dist/index.d.ts",
   "scripts": {
     "build": "webpack --mode production",
