@@ -1,13 +1,16 @@
 .sidebar {
-    border-left: 1px solid #dedede;
+    border-left: 1px solid var(--sidebar-border-colour);
     overflow-y: auto;
     overflow-x: hidden;
     min-width: 225px;
     max-width: 225px;
+    transition: all 0.25s;
+    background: var(--sidebar-background);
+    color: var(--sidebar-colour);
 
     .sidebar-header {
         padding: 0.5rem 1rem;
-        border-bottom: 1px solid #dedede;
+        border-bottom: 1px solid var(--sidebar-border-colour);
         text-align: center;
     }
 
@@ -16,5 +19,9 @@
         margin: 0;
         text-align: center;
         padding: 0.75rem 0;
+    }
+
+    &.collapse {
+        margin-right: -225px;
     }
 }

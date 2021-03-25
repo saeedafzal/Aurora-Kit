@@ -1,6 +1,7 @@
 button {
-    background: white;
-    border: 1px solid #dedede;
+    background: var(--button-default-background);
+    color: var(--button-default-colour);
+    border: 1px solid var(--button-default-border-colour);
     display: flex;
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
@@ -8,6 +9,20 @@ button {
     cursor: pointer;
     user-select: none;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+    &:hover:not([disabled]) {
+        background: var(--button-default-hover-background);
+    }
+
+    &:active {
+        background: var(--button-default-active-background) !important;
+        border-color: #99d0ff;
+    }
+
+    &:focus {
+        outline: none;
+        border-color: #b3b3b3;
+    }
 
     &:disabled {
         background: #d0d0d0 !important;
@@ -31,7 +46,6 @@ button.primary {
     }
 
     &:focus {
-        outline: none;
         border-color: #a5dfff;
     }
 }
