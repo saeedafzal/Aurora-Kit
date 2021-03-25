@@ -1,6 +1,6 @@
 {
   "name": "aurora-kit",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Another CSS framework.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
